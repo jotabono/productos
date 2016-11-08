@@ -26,10 +26,10 @@ function mostrarProductos() {
             var pvp = productos_array.posts[i].custom_fields.pvp;
             var observaciones = productos_array.posts[i].custom_fields.observaciones;
 
-            html = html + "<div class='thumbnail'>" +
-            "<img style='height:200px' src='"+image+"'/>" +
-            "<h2>" + title + "</h2>" +
-            "<div class='data'>" +
+            html = html + "<div class='thumbnail mythumbnail'>" +
+            "<img style='height:200px;' src='"+image+"'/>" +
+            "<div width='100%' class='titlebar'><h2 style='text-align:center; color:white;'>" + title + "</h2></div>" +
+            "<div class='data' style='text-align:center'>" +
             "<span>" + elecorgas + "</span><br/>" +
             "<span>" + mm + "</span><br/>" +
             "<span>" + anchobanda + "</span><br/>" +
