@@ -29,4 +29,9 @@ ul {
 
 .data {
     margin-left: 25px;
+    font-weight: bold;
+}
+
+.data i{
+  font-weight: bolder; 
 }

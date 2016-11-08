@@ -29,19 +29,19 @@ function mostrarProductos() {
             html = html + "<div class='thumbnail mythumbnail'>" +
             "<img style='height:200px;' src='"+image+"'/>" +
             "<div width='100%' class='titlebar'><h2 style='text-align:center; color:white;'>" + title + "</h2></div>" +
-            "<div class='data' style='text-align:center'>" +
-            "<span>" + elecorgas + "</span><br/>" +
-            "<span>" + mm + "</span><br/>" +
-            "<span>" + anchobanda + "</span><br/>" +
-            "<span>" + largobanda + "</span><br/>" +
-            "<span>" + hbocaentrada + "</span><br/>" +
-            "<span>" + m3 + "</span><br/>" +
-            "<span>" + kg + "</span><br/>" +
-            "<span>" + kw + "</span><br/>" +
-            "<span>" + v + "</span><br/>" +
-            "<span>" + hz + "</span><br/>" +
-            "<span>" + pvp + "</span><br/>" +
-            "<span>" + observaciones + "</span>" +
+            "<div class='data'>" +
+            "<span><i class='glyphicon glyphicon-minus'></i> " + elecorgas + "</span><br/>" +
+            "<span><i class='glyphicon glyphicon-minus'></i> " + mm + "</span><br/>" +
+            "<span><i class='glyphicon glyphicon-minus'></i> " + anchobanda + "</span><br/>" +
+            "<span><i class='glyphicon glyphicon-minus'></i> " + largobanda + "</span><br/>" +
+            "<span><i class='glyphicon glyphicon-minus'></i> " + hbocaentrada + "</span><br/>" +
+            "<span><i class='glyphicon glyphicon-minus'></i> " + m3 + "</span><br/>" +
+            "<span><i class='glyphicon glyphicon-minus'></i> " + kg + "</span><br/>" +
+            "<span><i class='glyphicon glyphicon-minus'></i> " + kw + "</span><br/>" +
+            "<span><i class='glyphicon glyphicon-minus'></i> " + v + "</span><br/>" +
+            "<span><i class='glyphicon glyphicon-minus'></i> " + hz + "</span><br/>" +
+            "<span><i class='glyphicon glyphicon-minus'></i> " + pvp + "</span><br/>" +
+            "<span><i class='glyphicon glyphicon-minus'></i> " + observaciones + "</span>" +
             "</div>" +
             "</div>";
         }
