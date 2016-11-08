@@ -1,0 +1,23 @@
+body {
+    background-color: whitesmoke;
+    font-family: sans-serif;
+}
+
+h1 {
+    color: #FF1D6B;
+    margin: 30px;
+}
+
+h2{
+  color:;
+  margin-left:5px;
+}
+
+ul {
+    color: darkgrey;
+    margin: 30px;
+}
+
+.data{
+  margin-left:25px;
+}
